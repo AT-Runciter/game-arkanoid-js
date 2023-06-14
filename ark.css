@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+canvas {
+    background-color: #000;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+button, p {
+    font-size: 14px;
+}
+
+#restartButton {
+    display: none;
+}
+
+#gameContainer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
